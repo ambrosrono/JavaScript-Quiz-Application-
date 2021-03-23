@@ -1,0 +1,65 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quiz Js</title>
+
+    <!-- style sheet css -->
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- javasctipt link -->
+    <script src="js/script.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Simple Quiz Application Using Javascript</h1>
+            <p>Test your Knowledge of <strong> Cyber Security Fundamentals</strong></p>
+        </header>
+        <section>
+            <!-- score display section -->
+            <div id="results">
+                <form name="quizForm", onsubmit="return submitAnswers()" method="post">
+                    <h3>1. which of the following is not a bluetooth attack?</h3>
+                    <input type="radio" name="q1" value="a" id="q1a">a. &lt;Bluedriving&gt;<br>
+                    <input type="radio" name="q1" value="b" id="q1b">b. &lt;Bluesmacking&gt;<br>
+                    <input type="radio" name="q1" value="c" id="q1c">c. &lt;Bluejacking&gt;<br>
+                    <input type="radio" name="q1" value="d" id="q1d">d. &lt;Bluesnarfing&gt;<br>
+
+                    <h3>2. Which of the following is not a subtype of 802.11 network?</h3>
+                    <input type="radio" name="q2" value="a" id="q2a">a.  802.11ay<br>
+                    <input type="radio" name="q2" value="b" id="q2b">b.  802.11b<br>
+                    <input type="radio" name="q2" value="c" id="q2c">c.  802.11g<br>
+                    <input type="radio" name="q2" value="d" id="q2d">d.  802.11n<br>
+
+                    <h3>3. In computer security, which of the following means that computer system assets can be modified only by authorized parties?</h3>
+                    <input type="radio" name="q3" value="a" id="q3a">a. Confidentiality<br>
+                    <input type="radio" name="q3" value="b" id="q3b">b. Integrity<br>
+                    <input type="radio" name="q3" value="c" id="q3c">c. Availability<br>
+                    <input type="radio" name="q3" value="d" id="q3d">d. Authenticity<br>
+
+                    <h3>4. A system is infected with a virus, but the anti-virus software is not able to detect it. This is an example of:</h3>
+                    <input type="radio" name="q4" value="a" id="q4a">a. False positive <br>
+                    <input type="radio" name="q4" value="b" id="q4b">b. False negative<br>
+
+                    <h3>5. Which of the following viruses spread to Microsoft Office documents like Word and Excel?</h3>
+                    <input type="radio" name="q5" value="a" id="q5a">a. &lt;File virus&gt;<br>
+                    <input type="radio" name="q5" value="b" id="q5b">b. &lt;Polymorphic virus&gt;<br>
+                    <input type="radio" name="q5" value="c" id="q5c">c. &lt;Macro virus&gt;<br>
+                    <input type="radio" name="q5" value="d" id="q5d">d. &lt;None of the above&gt;<br>
+
+                    <br><br>
+                    <input type="submit" value="Submit Answers">
+                </form>
+            </div>
+        </section>
+
+        <footer>
+
+            <p>Copyright &copy; Hackerono 2020, All Rights Reserved</p>
+        </footer>
+    </div>
+</body>
+</html>
